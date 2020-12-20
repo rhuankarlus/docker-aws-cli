@@ -1,4 +1,4 @@
-# Docker Image with AWS-CLI and NodeJS
+# Docker Image with Docker and AWS-CLI
 Docker Image with Docker and AWS-CLI installed
 
 ## Verions:
