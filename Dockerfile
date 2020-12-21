@@ -2,6 +2,7 @@ FROM docker:latest AS base
 LABEL maintainer="Rhuan Karlus Silva"
 RUN apk --update add python3 py-pip
 RUN pip install awscli
+RUN pip install six
 RUN apk del py-pip
 RUN rm -rf /var/cache/apk/*
 
